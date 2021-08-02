@@ -16,16 +16,16 @@
   * jumper wires
   
   
-  1. if you have the ultrasonic as a sensor, you have to desolder or disassemble the ultrasonic. The HC-SR04 has transmitter and receiver. The T transducer are better pick for use as an actual transmitter. 3D print the holder from [here](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/MicroLev-Bottom.stl).
+  1. if you have the ultrasonic as a sensor, you have to desolder or disassemble the ultrasonic. The HC-SR04 has a transmitter and receiver. The T transducers are better picked for use as an actual transmitter. 3D print the holder from [here](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/MicroLev-Bottom.stl).
   ![image](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/4.jpg)
   
-  2. Find the polarity of the transmitter. The transducers have polarity, so it's critical that they're glued in the base with the same polarity. Do not trust the manufacturer's marks; they are completely unreliable. there are many wasy to find the polarity but I have used DMM to find by watching this [video](https://www.youtube.com/watch?v=0HaKv3aJQWA&t=7s). 
+  2. Find the polarity of the transmitter. The transducers have polarity, so it's critical that they're glued in the base with the same polarity. Do not trust the manufacturer's marks; they are completely unreliable. There are many ways to find the polarity but I have used DMM to find by watching this [video](https://www.youtube.com/watch?v=0HaKv3aJQWA&t=7s). 
   3. Connect the wires and solder the transmitter. <br>
   
 ![photo](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/1.jpg)
 ![p](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/3.jpg)
 
-  4. connect the arduino the the computer and open arduino IDE to upload the code. The coding is quite basic, consisting of only a few lines. We are making high or low (0 / 1) and generating an oscillating signal of 40Khz to Arduino A0 and A1 output pins using this small code with the help of a timer and interrupt routines. [download](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/Ultrasonic_levitation.ino)
+  4. connect the arduino t0 the computer and open arduino IDE to upload the code. The coding is quite basic, consisting of only a few lines. We are making high or low (0 / 1) and generating an oscillating signal of 40Khz to Arduino A0 and A1 output pins using this small code with the help of a timer and interrupt routines. [download](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/Ultrasonic_levitation.ino)
   ![image](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/5.jpg)
   5. Re-upload and double-check all of the wiring. I used my phone voice recorder to listen for sound to see whether the ultrasonics were working. Instead of polystyrene, I used [Aerogel](http://www.buyaerogel.com/) to levitate it so that it could be illuminated by UV light.
   ![image](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/2.jpeg)

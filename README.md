@@ -20,5 +20,6 @@
   3. Connect the wires and solder the transmitter. <br>
   
 ![photo](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/1.jpg)
+![p](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/3.jpg)
 
   4. connect the arduino the the computer and open arduino IDE to upload the code

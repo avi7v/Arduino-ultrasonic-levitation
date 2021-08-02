@@ -9,7 +9,7 @@
   Things you need:
   * ardiono uno
   * ultrasonic sensors (T) 
-  * L296N 
+  * L296N motor driver
   * 9V battery
   * jumper wires
   
@@ -23,3 +23,6 @@
 ![p](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/3.jpg)
 
   4. connect the arduino the the computer and open arduino IDE to upload the code
+
+  
+  

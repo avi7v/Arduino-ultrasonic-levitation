@@ -1,7 +1,7 @@
 <h1> Arduino Ultrasonic Levitation <h1>
-  
+
 <h4> I opted to use six ultrasonic transducers instead of two after sketching a few concepts on paper because the main components of the levitation are the transducers, elements that transform the electrical input into acoustic waves. I intended to create a structure that traps expanded polystyrene (EPS) particles at its nodes. I had to figure out how to arrange the transducers in space to optimize trapping forces while minimizing parasitic reflections.  <h4>
-  
+  ![photo](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/2.jpeg)
 <h4> Arduino is an open-source electronics platform that uses simple hardware and software to make it easy to use. Arduino boards can take inputs - such as light from a sensor, a finger on a button, or a Twitter message - and convert them to outputs - such as turning on an LED, triggering a servo, or publishing anything online. By providing a set of instructions to the board's microcontroller, you may tell it what to do. <h4> 
  <h4>The L293D IC is a common Motor Driver IC that allows a DC motor to rotate in any direction. This IC has 16 pins and is used to operate a set of two DC motors in any direction at any time. It means that we can control two DC motors with an L293D IC. This IC can also run small and quiet large motors. <h4>
   

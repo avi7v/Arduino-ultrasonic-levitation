@@ -1,9 +1,10 @@
-<h1> Arduino Ultrasonic Levitation <h1>
+![image](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/2.jpeg)
+<h1>Ultrasonic Levitation<h1>
+<h4> I opted to use six ultrasonic transducers instead of two after sketching a few concepts on paper because the main components of the levitation are the transducers, elements that transform the electrical input into acoustic waves. I intended to create a structure that traps expanded polystyrene (EPS) particles at its nodes. I had to figure out how to arrange the transducers in space to optimize trapping forces while minimizing parasitic reflections.   <h4>
 
-<h4> I opted to use six ultrasonic transducers instead of two after sketching a few concepts on paper because the main components of the levitation are the transducers, elements that transform the electrical input into acoustic waves. I intended to create a structure that traps expanded polystyrene (EPS) particles at its nodes. I had to figure out how to arrange the transducers in space to optimize trapping forces while minimizing parasitic reflections.  <h4>
-  ![photo](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/2.jpeg)
 <h4> Arduino is an open-source electronics platform that uses simple hardware and software to make it easy to use. Arduino boards can take inputs - such as light from a sensor, a finger on a button, or a Twitter message - and convert them to outputs - such as turning on an LED, triggering a servo, or publishing anything online. By providing a set of instructions to the board's microcontroller, you may tell it what to do. <h4> 
- <h4>The L293D IC is a common Motor Driver IC that allows a DC motor to rotate in any direction. This IC has 16 pins and is used to operate a set of two DC motors in any direction at any time. It means that we can control two DC motors with an L293D IC. This IC can also run small and quiet large motors. <h4>
+
+<h4>The L293D IC is a common Motor Driver IC that allows a DC motor to rotate in any direction. This IC has 16 pins and is used to operate a set of two DC motors in any direction at any time. It means that we can control two DC motors with an L293D IC. This IC can also run small and quiet large motors. <h4>
   
   Things you need:
   * ardiono uno
@@ -14,9 +15,10 @@
   
   
   1. if you have the ultrasonic as a sensor, you have to desolder or disassemble the ultrasonic. The HC-SR04 has transmitter and receiver. The T transducer are better pick for use as an actual transmitter. 
+  
   2. Find the polarity of the transmitter. The transducers have polarity, so it's critical that they're glued in the base with the same polarity. Do not trust the manufacturer's marks; they are completely unreliable. there are many wasy to find the polarity but I have used DMM to find by watching this [video](https://www.youtube.com/watch?v=0HaKv3aJQWA&t=7s). 
   3. Connect the wires and solder the transmitter. <br>
   
 ![photo](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/1.jpg)
-  
+
   4. connect the arduino the the computer and open arduino IDE to upload the code

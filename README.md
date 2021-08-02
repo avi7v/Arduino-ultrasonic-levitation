@@ -29,6 +29,7 @@
   ![image](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/5.jpg)
   5. Re-upload and double-check all of the wiring. I used my phone voice recorder to listen for sound to see whether the ultrasonics were working. Instead of polystyrene, I used [Aerogel](http://www.buyaerogel.com/) to levitate it so that it could be illuminated by UV light.
   ![image](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/2.jpeg)
+  ![p](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/7.jpeg)
   
   
   

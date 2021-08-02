@@ -1,4 +1,4 @@
-![image](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/2.jpeg)
+![image](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/6.jpeg)
 <h1>Ultrasonic Levitation<h1>
   <h4>Asier Marzo and Bruce Drinkwater of Bristol developed a sonic tractor beam in 2015 that could lift, rotate, and move objects in numerous directions using ultrasound. That system created acoustic holograms that could trap and manipulate objects in mid-air using a grid of 64 off-the-shelf, small loudspeakers controlled by a programmable array of transducers. He says that medical imaging tools could be used to catch and move kidney stones, among other things. This was previously impossible due to the extremely short wavelengths used to obtain high-resolution photos. “Now that we can trap particles larger than half a wavelength,” Marzo explains, “you could use the same system that you use for imaging to trap particles.” <h4>
 
@@ -27,7 +27,8 @@
 
   4. connect the arduino the the computer and open arduino IDE to upload the code. The coding is quite basic, consisting of only a few lines. We are making high or low (0 / 1) and generating an oscillating signal of 40Khz to Arduino A0 and A1 output pins using this small code with the help of a timer and interrupt routines. [download](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/Ultrasonic_levitation.ino)
   ![image](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/5.jpg)
-  5. Re-upload and double-check all of the wiring. I used my phone voice recorder to listen for sound to see whether the ultrasonics were working. Instead of using the polystyrene, I used Aeroget to levitate.
+  5. Re-upload and double-check all of the wiring. I used my phone voice recorder to listen for sound to see whether the ultrasonics were working. Instead of polystyrene, I used [Aerogel](http://www.buyaerogel.com/) to levitate it so that it could be illuminated by UV light.
+  ![image](https://github.com/avi7v/Arduino-ultrasonic-levitation/blob/main/2.jpeg)
   
   
   

@@ -11,7 +11,7 @@
   
   
   1. if you have the ultrasonic as a sensor, you have to desolder or disassemble the ultrasonic. The HC-SR04 has transmitter and receiver. The T transducer are better pick for use as an actual transmitter. 
-  2. Find the polarity of the transmitter. there are many wasy to find the polarity but I have used DMM to find by watching this [video](https://www.youtube.com/watch?v=0HaKv3aJQWA&t=7s). 
+  2. Find the polarity of the transmitter. The transducers have polarity, so it's critical that they're glued in the base with the same polarity. Do not trust the manufacturer's marks; they are completely unreliable. there are many wasy to find the polarity but I have used DMM to find by watching this [video](https://www.youtube.com/watch?v=0HaKv3aJQWA&t=7s). 
   3. Connect the wires and solder the transmitter. <br>
   
 ![photo](https://i1.wp.com/makezine.com/wp-content/uploads/2018/09/Schematic.jpg?resize=620%2C518&ssl=1)
